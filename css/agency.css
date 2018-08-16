@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.page-scroll .btn {
+	display:none;
+}
+ 
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -307,6 +311,8 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+        background-color:rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
 header .intro-text .intro-heading {
